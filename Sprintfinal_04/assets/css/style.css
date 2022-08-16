@@ -1,0 +1,216 @@
+/* fuentes */
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;500;700&family=Ubuntu:wght@300;400;500;700&display=swap");
+
+body {
+  background-image: url(../img/fondo.jpg);
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  color: hsl(0, 0%, 28%);
+  font-size: 30px;
+  font-weight: bold;
+  font-family: monospace;
+  letter-spacing: 7px;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 64px;
+  background: linear-gradient(
+    to right,
+    hsl(0, 0%, 30%) 0,
+    hsl(255, 85%, 38%) 10%,
+    hsl(0, 0%, 30%) 20%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 600px;
+  }
+  100% {
+    background-position: 600px;
+  }
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  list-style-type: none;
+  color: #39207f;
+}
+
+.header nav ul {
+  list-style-type: none;
+}
+
+header {
+  margin-bottom: 150px;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  float: right;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 19px;
+}
+nav a {
+  margin: 5px;
+}
+nav img {
+  height: 35px;
+  width: auto;
+  padding: 5px;
+}
+
+nav a:hover {
+  color: rgb(218, 200, 200);
+  background-color: rgb(189, 183, 255);
+  border-radius: 10px;
+  transform: scale(1.05);
+}
+
+.cliente1 {
+  padding: 50px;
+  align-items: center;
+}
+
+.cliente1 .contacto {
+  font-family: "Roboto Mono", monospace;
+}
+
+.button {
+  color: white;
+  background-color: rgb(54, 52, 90);
+  border: 2px solid rgb(54, 52, 90);
+  padding: 8px;
+  border-radius: 10px;
+  margin-left: 10px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 15px;
+}
+
+.button:hover {
+  border: 2px solid transparent;
+  color: rgb(255, 255, 255);
+  background-color: rgb(133, 133, 133);
+  transform: scale(1.05);
+}
+
+.galeria {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.galeria .col-3 {
+  display: inline-block;
+  margin: 40px;
+}
+.col-3 {
+  object-fit: contain;
+}
+.galeria h2 {
+  padding: 20px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 8px #d4d4d4;
+  color: #1d1888;
+}
+p {
+  margin-top: 20px;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+}
+.card-body {
+  background-color: rgb(255, 227, 251);
+  display: flex;
+  flex-wrap: wrap;
+  display: inline-block;
+}
+
+.productos {
+  margin: 50px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.productos h2 {
+  margin: 50px;
+  font-family: "Roboto Mono", monospace;
+}
+
+.centro1 {
+  font-family: "Ubuntu", sans-serif;
+}
+.contacto {
+  width: 80%;
+  margin-left: 60px;
+  font-family: "Ubuntu", sans-serif;
+}
+.contacto h2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.contacto button {
+  margin-top: 20px;
+}
+
+footer {
+  width: 100%;
+  background-color: #c9c9c9;
+  color: rgb(1, 30, 105);
+  padding-left: 50px;
+  text-transform: uppercase;
+  justify-content: center;
+  font-family: "Ubuntu", sans-serif;
+}
+
+footer .rrssicon {
+  margin-top: 35px;
+}
+footer .rrssicon img {
+  width: 55%;
+}
+
+footer .iconos li {
+  display: inline-block;
+  margin-left: 20px;
+  color: rgb(123, 117, 117);
+  font-size: 35px;
+  list-style-type: none;
+  text-decoration: none;
+  padding-top: 30px;
+}
+
+footer .integrantes {
+  padding: 30px;
+}
+
+.box {
+  margin: 0 auto;
+}
+
+.ocultar {
+  display: none;
+}
+
+input {
+  max-width: 300px;
+}
+.search-btn {
+  max-width: 200px;
+}
