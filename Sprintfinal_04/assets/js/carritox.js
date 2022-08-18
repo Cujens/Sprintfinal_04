@@ -24,6 +24,27 @@ document.addEventListener("DOMContentLoaded", () => {
       imagen: "assets/img/computador.jpeg",
       favorito: true,
     },
+    {
+      id: 4,
+      nombre: "Teclado",
+      precio: 20,
+      imagen: "assets/img/teclado.jpg",
+      favorito: false,
+    },
+    {
+      id: 5,
+      nombre: "Mouse",
+      precio: 10,
+      imagen: "assets/img/mouse.jpg",
+      favorito: false,
+    },
+    {
+      id: 6,
+      nombre: "Audífonos",
+      precio: 15,
+      imagen: "assets/img/audifonos.jpg",
+      favorito: false,
+    }
   ];
   // 1. Crear el loading, crear una variable que su valor inicial sea ‘false’
 
